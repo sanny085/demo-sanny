@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Cricket from "./bat_ball.jpg";
 import CricketBat from "./assets/cricket-bat.webp";
+import HeaderComponent from "./components/HeaderComponent.js";
 
 function App() {
   return (
@@ -12,9 +13,13 @@ function App() {
         <img src={CricketBat} className="App-logo" alt="bat pic" />
         <img src="/header/dhoni.jpeg" className="App-logo" alt="dhoni pic" />
 
-        <p>
+        <br />
+        <br />
+        <br />
+        <HeaderComponent />
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://reactjs.org"
